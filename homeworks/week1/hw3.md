@@ -26,24 +26,36 @@ CLI 是 **command line** 的簡寫，相對於 **GUI  (graphic user interface) �
 <font size=4>`rmdir`</font> remove directory 刪除資料夾
 
 <font size=4>`mv`</font> move **a.**移動檔案位置  **b.**檔案重新命名（/絕對位置，根目錄 ； ~相對位置）
+
 <font size=4>`cp`</font> copy 複製檔案（複製資料夾需要使用參數-r： `cp -r 資料夾名稱`
+
 <font size=4>`man`</font> manual 使用手冊
+
 <font size=4>`clear`</font> 清空畫面
+
 <font size=4>`cat`</font> catenate連接 **a.**連接檔案 **b.**只放一個檔案參數，會顯示檔案內部內容，例如：`cat happy.txt`
-<font size=4>`vim`</font>  進入檔案內部的文字編輯器 （使用較不直觀） 
-  有不同模式： i - insert 插入模式，可打字  // esc - escape 普通模式，可插入複製貼上，但不能打字
-  離開vim時需使用`shift:q`  // 存檔離開`shift:wq` (write quit)  // 有更動但不存檔離開 `shift:!q`
+
+<font size=4>`vim`</font>  進入檔案內部的文字編輯器 （使用較不直觀）
+有不同模式： i - insert 插入模式，可打字  // esc - escape 普通模式，可插入複製貼上，但不能打字
+離開vim時需使用`shift:q`  // 存檔離開`shift:wq` (write quit)  // 有更動但不存檔離開 `shift:!q`
+
 <font size=4>`open`</font> 開啟檔案
+
 <font size=4>`echo`</font> 印出字串 例：`echo "123"`（印出123）//  `echo "hello" > hw.txt`（寫入hello到文件hw.txt）
+
 <font size=4>`grep`</font> 抓關鍵字 `grep keyword 檔名`
+
 <font size=4>`wget`</font> 下載檔案 ` wget _網址或圖片網址_`
+
 <font size=4>`curl`</font> 送出request `curl _API網址_` 會show出網站回傳內容？可以拿來測試網站？
 
-<font size=4>`>`</font> redirection 重新導向 input output（後導入的內容會覆蓋前面內容）`ls -al > list-result` ls -al輸出的內容導入到名為 list-result 的檔案裡
+<font size=4>`>`</font> redirection 重新導向 input output（後導入的內容會覆蓋前面內容）
+`ls -al > list-result` ls -al輸出的內容導入到名為 list-result 的檔案裡
 
 <font size=4>`>>`</font> append 新增導向 （後導入的內容新增於前面內容後、接續於內容後不會覆蓋）
 
-<font size=4>`|`</font> pipe `左邊的輸出｜(左邊輸出)右邊的輸入` 例：`cat hello | grep o > result`  印出hello的內容，內容中抓取 字母 o ，並輸出至檔案 result
+<font size=4>`|`</font> pipe `左邊的輸出｜(左邊輸出)右邊的輸入` 
+例：`cat hello | grep o > result`  印出hello的內容，內容中抓取 字母 o ，並輸出至檔案 result
 
 ---
 
