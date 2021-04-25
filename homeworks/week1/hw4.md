@@ -37,9 +37,13 @@ ___
 * branch相關指令
 
 `git branch -v`  查看有哪些 branch 分支
+
 `git branch  ` 建立分支 （合併技：`git checkout -b branchname`  建立新 branch 再移動到 branch ）
+
 `git branch -d ` 刪除分支
+
 `git checkout branchname` 移動到分支的檔案 （ checkout 指令可以在版本或分支之間移動 ）
+
 `git merge` 把分支合併進來（遇到衝突的話，就手動解決）
 
 ---

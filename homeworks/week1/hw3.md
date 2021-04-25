@@ -47,13 +47,15 @@ CLI 是 **command line** 的簡寫，相對於 **GUI  (graphic user interface) �
 
 ---
 
-* 練習好基本指令，h0w開始步驟：
-  1. 叫出 terminal
-  2. `pwd` （確認目前工作位置）
-  3. `cd desktop`（移動位置到桌面）
-  4. `pwd`（確認自己已成功移動）
-  5. `mkdir wifi`（建立一個名稱『 wifi 』的資料夾）
-  6. `cd wifi`（移動到資料夾裡面）
-  7. `touch afu.js`（新增一個aft.js的檔案）
-  8. `ls`（列出 wifi 資料內檔案）
-  9. 看見出現 afu.js ，成功！想再確認，可以去桌面點擊看看 wifi 資料夾
+#### 練習好基本指令，h0w哥開始步驟
+
+1. 叫出 terminal
+2. `pwd` （確認目前工作位置）
+
+3. `cd desktop`（移動位置到桌面）
+4. `pwd`（確認自己已成功移動）
+5. `mkdir wifi`（建立一個名稱『 wifi 』的資料夾）
+6. `cd wifi`（移動到資料夾裡面）
+7. `touch afu.js`（新增一個aft.js的檔案）
+8. `ls`（列出 wifi 資料內檔案）
+9. 看見出現 afu.js ，成功！想再確認，可以去桌面點擊看看 wifi 資料夾
