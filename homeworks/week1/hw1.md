@@ -6,11 +6,11 @@
 
 1. 取得 Lidemy 第五期課程為個人開設的 repository 專案（使用邀請開通連結）。
 
-2. 電腦上開啟 terminal 使用 CLI 語法 移動至欲存放專案的資料夾。
+2. 電腦上開啟 terminal 使用 CLI 語法 移動至欲存放專案的資料夾 downloads/lidemy。
 
 3. 進入第一步的連結並複製專案網址，`git clone https://github.com/Lidemy/mentor-program-5th-ayu-lee.git`  完成個人電腦上（ Local 端）的更新。
 
-4. `ls` 查看目前專案資料夾內的內容檔案有哪些；`git log `查看目前 git 版本紀錄。
+4. `cd ~/downloads/lidemy/mentor-program-5th-ayu-lee`  ,  `ls` 查看目前專案資料夾內的內容檔案有哪些；`git log `查看目前 git 版本紀錄。
 
 5. 開始寫自己的作業前 **先開啟一個  Week1 作業的 branch** 方便之後上傳與版本管理 
 

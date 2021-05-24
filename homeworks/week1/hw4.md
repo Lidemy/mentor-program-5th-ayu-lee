@@ -16,7 +16,7 @@ ___
 >（ changes to be committed ）unstage 加入版本控制 //（untracked files ）不加入
 
 `git rm --cached`  檔案移出版本控制
-`git commit` 正式新建版本 （ 新建完成後會跳入 git 的 vim 文字編輯器，可進去輸入版本 message ）
+`git commit` 正式新建版本 （ 新建完成後會切入 vim 文字編輯器，可進去輸入版本 message ）
 或使用 `git commit -m "版本名稱命名"` （ m message的意思 ）
 
 > 這邊注意：務必先 add 再 commit，先把檔案分類加不加入版本控制，才能建立新版本
@@ -59,5 +59,5 @@ ___
 7. `git add a檔`（a檔是新增檔，一定要先加入版本控制)
 8. `git commit -am "1st_edition"`（加入版本控制）`git log` （查看目前版本控制紀錄會顯示1st_ediotion）
 9. 成功囉，這時候請菜哥創建一個 Github 的帳號，來用雲端同步版本。
-10. 在帳號裡開啟一個 joke 的 repository ，複製專案生成的網址到 terminal 進行連線。
+10. 在帳號裡開啟一個 joke 的 repository ，`git clone https://github.com/joke/xxxxx.git`複製專案生成的網址到 local端 terminal 進行連線
 11. 使用 `git push origin master` 把目前的笑話版本上傳！（要抓取雲端版本下來，指令改 pull ）
